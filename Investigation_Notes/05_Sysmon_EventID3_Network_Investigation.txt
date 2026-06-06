@@ -10,7 +10,7 @@ Protocol:
 TCP
 
 Destination:
-52.168.117.170
+52.168.117.xxx
 
 Destination Port:
 443 (HTTPS)
