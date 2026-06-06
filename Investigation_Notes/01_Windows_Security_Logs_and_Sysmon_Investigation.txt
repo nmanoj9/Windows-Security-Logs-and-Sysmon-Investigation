@@ -1,0 +1,51 @@
+Windows Security Logs and Sysmon Investigation
+
+Objective:
+To investigate Windows authentication events and Sysmon telemetry to understand authentication activity, process creation events, and network connections.
+
+Tools Used:
+- Event Viewer
+- Sysmon
+- Windows Security Logs
+- Notepad
+
+Operating System:
+- Windows 10
+
+Data Sources:
+
+* Windows Security Log
+* Microsoft-Windows-Sysmon/Operational Log
+
+Events Investigated:
+
+- Event ID 4625 (Failed Logon)
+- Event ID 4624 (Successful Logon)
+- Sysmon Event ID 1 (Process Create)
+- Sysmon Event ID 3 (Network Connection)
+- Sysmon Event ID 5 (Process Termination)
+
+Investigation Process:
+
+1. Analyzed failed logon events.
+2. Investigated successful authentication events.
+3. Installed and configured Sysmon.
+4. Collected process creation telemetry.
+5. Collected network connection telemetry.
+6. Correlated authentication, process, and network events.
+7. Documented findings and recommendations.
+
+Findings:
+Multiple failed authentication attempts were observed against the Administrator account. Successful authentication events were also observed. Sysmon telemetry provided visibility into process creation and outbound network connections. No confirmed malicious activity was identified during the investigation.
+
+Conclusion:
+The project demonstrated how Windows Security Logs and Sysmon can be used together to investigate authentication activity, process execution, and network connections. Continuous monitoring of authentication and endpoint activity is recommended.
+
+Skills Demonstrated:
+
+- Windows Security Log Analysis
+- Sysmon Monitoring
+- Authentication Investigation
+- Event Correlation
+- Threat Detection
+- SOC Investigation Methodology

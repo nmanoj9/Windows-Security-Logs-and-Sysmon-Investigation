@@ -1,0 +1,18 @@
+Final Analyst Investigation Notes
+
+Investigation Summary:
+Windows Security and Sysmon logs were analyzed to investigate authentication activity, process creation events, and network connections.
+
+Key Findings:
+- Multiple failed logon attempts were observed (Event ID 4625).
+- Successful authentication events were observed (Event ID 4624).
+- Sysmon captured a process creation event for Notepad.exe (Event ID 1).
+- Sysmon captured a network connection event for OneDrive.exe over HTTPS (Event ID 3).
+- Sysmon captured a process termination event for mmc.exe (Event ID 5).
+
+Conclusion:
+No confirmed malicious activity was identified during the investigation.
+Multiple failed authentication attempts were observed and analyzed. While the activity resembled password-guessing behavior, no evidence of successful compromise, malicious process execution, or suspicious outbound network communication was identified.
+
+The remaining events were consistent with expected user and system activity.
+

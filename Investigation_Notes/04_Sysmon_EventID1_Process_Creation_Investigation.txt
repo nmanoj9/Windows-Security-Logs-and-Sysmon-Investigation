@@ -1,0 +1,15 @@
+Title:
+Sysmon Event ID 1 Process Creation Investigation
+
+Observation:
+Sysmon Event ID 1 recorded a process creation event.
+
+Process:
+Notepad.exe
+
+Parent Process:
+explorer.exe
+
+Assessment:
+The process was launched by the Windows Explorer shell and appears to be normal user activity. No suspicious command-line arguments or parent-child relationships were observed.
+

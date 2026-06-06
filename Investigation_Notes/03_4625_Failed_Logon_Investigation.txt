@@ -1,0 +1,17 @@
+Analyst Investigation Notes
+
+Observation:
+7 failed login attempts detected against the Administrator account.
+
+Event ID:
+4625
+
+Failure Reason:
+Unknown user name or bad password
+
+Logon Type:
+2 (Interactive Logon)
+
+Assessment:
+Multiple failed authentication attempts observed within a short time period. Activity may indicate password guessing or brute force behavior. Further investigation required.
+

@@ -1,0 +1,19 @@
+Analyst Investigation Notes
+
+Observation:
+Sysmon Event ID 3 recorded an outbound network connection.
+
+Process:
+OneDrive.exe
+
+Protocol:
+TCP
+
+Destination:
+52.168.117.170
+
+Destination Port:
+443 (HTTPS)
+
+Assessment:
+The connection was initiated by Microsoft OneDrive and appears to be legitimate cloud synchronization activity. Communication occurred over HTTPS and no suspicious ports or processes were observed.

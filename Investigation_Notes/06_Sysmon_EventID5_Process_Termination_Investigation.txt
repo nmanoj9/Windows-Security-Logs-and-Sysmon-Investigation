@@ -1,0 +1,9 @@
+Observation:
+Sysmon Event ID 5 recorded a process termination event for mmc.exe.
+
+Process:
+mmc.exe (Microsoft Management Console)
+
+Assessment:
+The terminated process is a legitimate Windows administrative tool used for system management functions such as Event Viewer and Device Manager. No suspicious behavior was observed.
+

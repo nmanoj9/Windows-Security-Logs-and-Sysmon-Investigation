@@ -1,0 +1,27 @@
+Windows Brute Force Detection
+
+Detection Name:
+Windows Brute Force Detection
+
+Objective:
+Detect multiple failed login attempts against the same user account.
+
+Data Source:
+Windows Security Logs
+
+Event ID:
+4625 (Failed Logon)
+
+Detection Logic:
+Failed Logins > 5
+for the same username
+within 5 minutes
+
+Risk:
+Potential Brute Force Activity
+
+Severity:
+Medium
+
+Analyst Action:
+Investigate username, source, timestamps, and login activity.

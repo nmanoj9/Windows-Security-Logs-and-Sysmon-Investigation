@@ -1,0 +1,21 @@
+ Correlation Analysis
+
+Event ID 4625:
+Multiple failed logon attempts were detected against the Administrator account.
+
+Event ID 4624:
+Successful logon events were observed during the investigation period.
+No direct correlation was confirmed between the observed failed logons and successful logons.
+
+Sysmon Event ID 1:
+A process creation event was generated for Notepad.exe.
+
+Sysmon Event ID 3:
+A network connection event was generated for OneDrive.exe using HTTPS (Port 443).
+
+Sysmon Event ID 5:
+A process termination event was generated for mmc.exe.
+
+Assessment:
+The investigation demonstrated visibility across authentication activity, process execution, network connections, and process termination events.
+Multiple failed authentication attempts were observed, but no evidence of successful compromise or malicious execution was identified during the investigation period.
