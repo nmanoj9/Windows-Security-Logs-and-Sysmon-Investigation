@@ -88,6 +88,16 @@ This project demonstrates a SOC Analyst investigation using Windows Security Log
 
 ---
 
+## MITRE ATT&CK Mapping
+
+| Technique ID | Technique Name | Evidence |
+|-------------|---------------|----------|
+| T1110 | Brute Force | Multiple failed logon attempts (Event ID 4625) |
+| T1078 | Valid Accounts | Successful authentication activity (Event ID 4624) |
+| T1071 | Application Layer Protocol | HTTPS network communication observed in Sysmon Event ID 3 |
+
+---
+
 ## Skills Demonstrated
 
 - Security Monitoring
